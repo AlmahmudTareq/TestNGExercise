@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNGExercise" parallel ="tests">
+	<test name="TestingFacebook">
+		<classes>
+			<class name= "TestNG.TestingFacebook" />
+			<class name= "TestNG.TestingW3Schools" />
+			<class name= "TestNG.TestingSitebeam" />
+
+		</classes>
+	</test>
+</suite>

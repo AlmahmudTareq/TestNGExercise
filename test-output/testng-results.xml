@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNGExercise" duration-ms="213376" started-at="2017-06-11T14:17:15Z" finished-at="2017-06-11T14:20:49Z">
+    <groups>
+      <group name="Color">
+        <method signature="TestingW3Schools.viewColors()[pri:0, instance:TestNG.TestingW3Schools@5700d6b1]" name="viewColors" class="TestNG.TestingW3Schools"/>
+      </group> <!-- Color -->
+      <group name="Tutorials">
+        <method signature="TestingW3Schools.viewTutorials()[pri:0, instance:TestNG.TestingW3Schools@5700d6b1]" name="viewTutorials" class="TestNG.TestingW3Schools"/>
+      </group> <!-- Tutorials -->
+    </groups>
+    <test name="TestingFacebook" duration-ms="213376" started-at="2017-06-11T14:17:15Z" finished-at="2017-06-11T14:20:49Z">
+      <class name="TestNG.TestingW3Schools">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:TestNG.TestingW3Schools@5700d6b1]" name="openBrowser" duration-ms="14787" started-at="2017-06-11T20:17:29Z" finished-at="2017-06-11T20:17:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="viewColors()[pri:0, instance:TestNG.TestingW3Schools@5700d6b1]" name="viewColors" duration-ms="15695" started-at="2017-06-11T20:18:47Z" depends-on-methods="TestNG.TestingW3Schools.openBrowser" finished-at="2017-06-11T20:19:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewColors -->
+        <test-method status="PASS" signature="viewTutorials()[pri:0, instance:TestNG.TestingW3Schools@5700d6b1]" name="viewTutorials" duration-ms="39084" started-at="2017-06-11T20:19:02Z" depends-on-methods="TestNG.TestingW3Schools.openBrowser" finished-at="2017-06-11T20:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewTutorials -->
+      </class> <!-- TestNG.TestingW3Schools -->
+      <class name="TestNG.TestingFacebook">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:TestNG.TestingFacebook@7085bdee]" name="openBrowser" duration-ms="13571" started-at="2017-06-11T20:17:15Z" finished-at="2017-06-11T20:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginTOFacebook()[pri:0, instance:TestNG.TestingFacebook@7085bdee]" name="loginTOFacebook" duration-ms="16416" started-at="2017-06-11T20:18:30Z" depends-on-methods="TestNG.TestingFacebook.openBrowser" finished-at="2017-06-11T20:18:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTOFacebook -->
+      </class> <!-- TestNG.TestingFacebook -->
+      <class name="TestNG.TestingSitebeam">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:TestNG.TestingSitebeam@5bcab519]" name="openBrowser" duration-ms="35958" started-at="2017-06-11T20:17:44Z" finished-at="2017-06-11T20:18:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="pricing()[pri:0, instance:TestNG.TestingSitebeam@5bcab519]" name="pricing" is-config="true" duration-ms="10536" started-at="2017-06-11T20:18:20Z" finished-at="2017-06-11T20:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricing -->
+        <test-method status="PASS" signature="test()[pri:0, instance:TestNG.TestingSitebeam@5bcab519]" name="test" duration-ms="51860" started-at="2017-06-11T20:19:42Z" depends-on-methods="TestNG.TestingSitebeam.openBrowser" finished-at="2017-06-11T20:20:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="pricing()[pri:0, instance:TestNG.TestingSitebeam@5bcab519]" name="pricing" is-config="true" duration-ms="15410" started-at="2017-06-11T20:20:33Z" finished-at="2017-06-11T20:20:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricing -->
+      </class> <!-- TestNG.TestingSitebeam -->
+    </test> <!-- TestingFacebook -->
+  </suite> <!-- TestNGExercise -->
+</testng-results>
